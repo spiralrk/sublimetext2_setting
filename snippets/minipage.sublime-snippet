@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}[htbp]
+	\centering
+	\begin{minipage}{0.4\hsize}
+		\includegraphics[${2:width=4cm}]{${3:figure1}.eps}
+		\caption{${4:Caption here}}
+		\label{fig:${5:figure1}}
+	\end{minipage}
+	\begin{minipage}{0.4\hsize}
+		\includegraphics[${6:width=4cm}]{${7:figure2}.eps}
+		\caption{${8:Caption here}}
+		\label{fig:${9:figure2}}
+	\end{minipage}
+\end{figure}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mini</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>

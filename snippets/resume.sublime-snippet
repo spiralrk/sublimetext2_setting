@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[a4j,twocolumn]{jarticle}
+\usepackage[dvips]{color,graphics,graphicx}
+\usepackage{Resume}
+\graphicspath{{./fig/}}
+
+\begin{document}
+
+\twocolumn[
+	\vspace{-5mm}
+	\begin{center}
+		{\LARGE $1} \\\\
+	\end{center}
+	\begin{flushright}
+	% \today \\\\
+	\begin{tabular}{cr}
+	機械知能システム学専攻	& 明研究室	\\\\
+	1632028 & 川崎 涼裕	\\\\
+	\end{tabular}
+	\end{flushright}
+]
+
+\section{$3}
+
+\begin{thebibliography}{}
+	\bibitem{}
+\end{thebibliography}
+
+\end{document}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>resume</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>

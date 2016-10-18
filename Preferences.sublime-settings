@@ -1,0 +1,14 @@
+{
+	"draw_indent_guides": true,
+  "indent_guide_options": ["draw_normal", "draw_active"],
+	"alwayshighlight_pattern": "[｛｝￥＝”’＋＠：；＿　０-９Ａ-Ｚａ-ｚ]",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"detect_slow_plugins": false,
+	"enable_alwayshighlight": true,
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2
+}

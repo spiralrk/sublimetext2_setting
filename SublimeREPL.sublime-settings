@@ -1,0 +1,13 @@
+{
+	"default_extend_env": {
+		"PATH": "{PATH};/usr/gcc/bin;/usr/gcc/libexec/gcc/i686-pc-mingw32/5.1.0;/usr/PortableTex/bin;/usr/PortablePerl/perl/bin;/usr/PortablePython/App;/usr/SumatraPDF;/usr/bin;/usr/GSview/gs9.04/bin;/usr/GSview/gs9.04/lib;/usr/dviout;",
+		
+		"TEXMFMAIN" : "/usr/PortableTex/share/texmf-dist;",
+
+		"GS_LIB" : "/gs9.04/Resource/Init;/usr/GSview/gs9.04/Resource;/usr/GSview/gs9.04/lib;/usr/GSview/gs9.04/kanji;",
+
+		"GS_FONTPATH" : "/usr/Resource/fonts;",
+
+		"GS_OPTIONS" : "-dWINKANJI;"
+	}
+}

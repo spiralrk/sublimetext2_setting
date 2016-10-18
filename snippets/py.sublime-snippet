@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+# -*- coding: utf-8 -*-
+
+import sys
+
+def main(argv):
+	${1:pass}
+
+if __name__ == '__main__':
+    main(sys.argv)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_py</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Start Python</description>
+</snippet>

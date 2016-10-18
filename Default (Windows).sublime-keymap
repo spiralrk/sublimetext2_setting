@@ -1,0 +1,15 @@
+[
+	{ "keys": ["ctrl+alt+pageup"], "command": "select_lines", "args": {"forward": false} },
+
+	{ "keys": ["ctrl+alt+pagedown"], "command": "select_lines", "args": {"forward": true} },
+	
+	{
+		"caption": "SublimeREPL: PowerShell",
+		"keys": ["ctrl+shift+\\"],
+		"command": "run_existing_window_command", "args":
+	{
+		"id": "repl_powershell",
+		"file": "config/PowerShell/Main.sublime-menu"
+		}
+	}
+]
